@@ -22,6 +22,12 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint --fix",
+      "pre-push": "eslint --fix"
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,5 +46,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://SM0413.github.io/react-for-beginners"
+  "homepage": "https://SM0413.github.io/react-for-beginners",
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
 }
