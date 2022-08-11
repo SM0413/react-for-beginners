@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/react-for-beginners/static/js/main.bef75cfa.js",
+    "index.html": "/react-for-beginners/index.html",
+    "main.bef75cfa.js.map": "/react-for-beginners/static/js/main.bef75cfa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bef75cfa.js"
+  ]
+}
