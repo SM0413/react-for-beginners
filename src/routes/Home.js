@@ -18,7 +18,6 @@ function Home() {
     getMovies();
   }, []);
 
-  console.log(movies);
   return (
     <div>
       {loading ? (
