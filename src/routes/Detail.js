@@ -14,7 +14,7 @@ function Detail() {
   }, [id]);
   useEffect(() => {
     getMovieDetail();
-  }, []);
+  }, [getMovieDetail]);
   console.log(movie);
   return (
     <div>
